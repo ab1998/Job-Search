@@ -8,7 +8,6 @@ import JobPosting from './JobPosting'
 import { jobobj } from './constants/constants'
 
 function App() {
-  const [count, setCount] = useState(0)
   const [items, setItems] = useState([])
   const [itemIds, setItemIds] = useState(null)
   const [fetchDetail, setFetchDetail] = useState(false) // show load on load more button
